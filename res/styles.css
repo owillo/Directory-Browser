@@ -1,0 +1,337 @@
+@import url(http://fonts.googleapis.com/css?family=Arimo:400,400italic,700italic,700);
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic,700italic,700);
+
+body { 
+	background-color: #C0C0C0;
+	font: 100%/1.3 "Arimo",Arial,Helvetica,sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+h1 {
+	color: #000;
+	
+	font-weight:bold;
+	font-size: 23px;
+	margin: 0 0 10px 8px;
+	padding:0;
+}
+
+img {
+	border: 0;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	width: 950px;
+	margin-left:auto;
+	margin-right:auto;
+	border: 2px solid #CCCCCC;
+	padding: 9px;
+	background-color:#CCE7FD;
+	color:#000;
+	background-color:#660000;
+	
+	
+}
+
+#breadcrumbs {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:17px;
+	margin: 0 0 8px 8px;
+	font-weight:bold;
+}
+
+#breadcrumbs a, #breadcrumbs a:visited, #breadcrumbs a:link, #breadcrumbs a:active {
+	color: #ccc;
+	text-decoration:none;
+	font-weight:normal;
+	text-transform:uppercase;
+	font-size:12px;
+}
+
+#breadcrumbs a:hover {
+	text-decoration:underline;
+}
+
+#listingcontainer {
+	
+	padding: 10px;
+	background-color:#FFF;
+}
+
+#listingheader {
+	color: #FFF ;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:small;
+	text-align:right;
+	background-color:#000000;
+	padding:10px 15px;
+	width:900px;
+}
+
+#listingheader a, #listingheader a:active, #listingheader a:visited, #listingheader a:link {
+	text-decoration: none;
+	color: #fff;
+}
+
+#listingheader a:hover {
+	text-decoration: underline;
+	color: #476BB3;
+}
+
+
+#headerfile {
+	text-align:left;
+	float: left;
+	width: 590px; 
+}
+#headermodified{
+	text-align:right;
+	float: left;
+	width: 130px; 
+}
+#headersize {
+	text-align:right;
+	width: 75px;
+	float: left;
+}
+
+#listing {
+	border: 1px solid #A7C5FF;
+}
+.smaller{
+	font-size:12px;
+	color:#660000;
+	font-weight:normal;
+}
+#listing a {
+	display:block;
+	padding: 20px 20px 10px 10px;
+	font-size:small;
+	float:left;
+	
+	text-decoration:none;
+	width:850px;
+	height:32px;
+	text-align:right;
+	
+}
+
+#listing .d a {
+	
+	color:#003366;
+	
+	
+}
+#listing .f a {
+	
+	color:#00000;
+	font-weight:normal;
+	
+	
+}
+
+
+
+#listing a:hover {
+	background-color:#DBE6FE;
+}
+#formheader{
+	padding:0px;
+	background-color:#FF6600;
+}
+#opheader{
+	padding:5px;
+	background-color:#0CC;
+}
+.rStr{
+	color:#000000;
+}
+#rmv {
+	float:right;
+	margin:10px;
+}
+#rmv a{
+	display:block;
+	width:100px;
+	color:#000000;
+	text-transform:uppercase;
+	padding:5px 5px 5px 30px;
+	font-size:11px;
+	text-decoration:none;
+	
+	background:url(delete85.png) no-repeat left center #CC9933;
+	
+}
+#listing a img {
+	float:left;
+	margin-right: 10px;
+}
+
+#listing a strong {
+	
+	float:left;
+	cursor:hand;
+	cursor:pointer;
+	text-align:left;
+	margin:0px;
+	padding:0px;
+	position:static;
+}
+
+#listing a span.nm {
+	width: 550px;
+	float:left;
+	cursor:hand;
+	cursor:pointer;
+	text-align:left;
+	margin:0px;
+	padding:0px;
+	position:static;
+}
+
+#listing  a.openfolder {
+	width: 40px;
+	height:30px;
+	display:block;
+	float:right;
+	cursor:hand;
+	cursor:pointer;
+	margin:	0px 0px;
+	padding:16px 4px;
+	position:static;
+	background-image:url(open.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+#listing  a.openfile {
+	width: 40px;
+	height:30px;
+	display:block;
+	float:right;
+	cursor:hand;
+	cursor:pointer;
+	margin:	0px 0px;
+	padding:16px 4px;
+	position:static;
+	background-image:url(openfile.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	
+}
+
+
+
+#listing a em {
+	float: left;
+	width: 75px;
+	text-align:right;
+	cursor:hand;
+	cursor:pointer;
+}
+
+#listing a span {
+	position: absolute;
+	margin-left: -151px;
+	margin-top: -2px;
+}
+
+#listing a span img {
+	width: 150px;
+	background-color:#CCCCCC;
+	visibility: hidden;	
+}
+
+#listing a:hover span img {
+	border: 1px solid #666666;
+	visibility: visible;
+}
+
+#upload {
+	border: 1px solid #A7C5FF;
+	display:block;
+	margin-top: 10px;
+	font-size:small;
+	color: #6285CA;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	width:568px;
+	background-color: #E9F0FF;
+}
+
+#uploadtitle {
+	background-color: #DBE6FE;
+	padding: 2px 5px 2px 5px;
+	border-bottom: 1px solid #A7C5FF;
+	
+}
+
+#uploadcontent {
+	padding: 2px 5px 2px 5px;
+}
+
+
+#copy {
+	width: 600px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-size:x-small;
+	color: #666666;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#headerx{
+	height:35px;
+	overflow:hidden;
+	width:900px !important;
+	background-color:#CCCCCC !important;
+	padding: 10px 20px 5px 10px !important;
+}
+#copy a {
+	text-decoration: underline;
+	color: #666666;
+}
+
+.b {
+	background-color: #F7D8B7;
+	
+}
+
+.w {
+	background-color:#FFFFFF;
+}
+
+.f {
+	color:#000;
+	font-weight:normal;
+}
+
+.d {
+	color:#003366;
+	font-weight:bold;
+}
+
+.mod {
+	float:right;
+}
+
+.size {
+	float:right;
+}
+
+.upload-error{
+	padding:2px 0;
+}
+
+.upload-error strong{
+	color:#993333;
+}
